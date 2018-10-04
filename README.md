@@ -1,11 +1,13 @@
 # socks5_conets
 手工搭建 只可以conets 6   7
-、
 
 
-下面我们将用SS5在Linux上搭建一个Socks5 Proxy Server，具体过程如下：
-首先，编译安装SS5需要先安装一些依赖组件
+ 下面我们将用SS5在Linux上搭建一个Socks5 Proxy Server，具体过程如下：
+ 
+ 首先，编译安装SS5需要先安装一些依赖组件
+
 yum -y install gcc gcc-c++ automake make pam-devel openldap-devel cyrus-sasl-devel openssl-devel
+
 接下来，我们从 http://ss5.sourceforge.net/ 下载SS5最新版本的源代码后，开始编译安装：
 tar zxvf ./ss5-3.8.9-8.tar.gz
 cd ss5-3.8.9
