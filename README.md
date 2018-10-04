@@ -10,6 +10,8 @@ yum -y install gcc gcc-c++ automake make pam-devel openldap-devel cyrus-sasl-dev
 
  接下来，我们从 http://ss5.sourceforge.net/ 下载SS5最新版本的源代码后，开始编译安装：
  
+ wget https://github.com/ggsjj/socks5_conets/blob/master/ss5-3.8.9-8.tar.gz
+ 
  tar zxvf ./ss5-3.8.9-8.tar.gz
 
  cd ss5-3.8.9
