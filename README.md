@@ -52,7 +52,7 @@ user2 234
 
 在/etc/sysconfig/ss5这个文件中，添加下面这一行命令，-b后面的参数代表监听的ip地址和端口号
 
- # Add startup option hereSS5_OPTS=" -u root -b 0.0.0.0:8080"
+ Add startup option hereSS5_OPTS=" -u root -b 0.0.0.0:8080"
 
 启动service ss5 start
 
